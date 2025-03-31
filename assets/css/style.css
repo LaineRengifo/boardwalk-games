@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 57.15px; /* pushes the top pf the header down under fixed navbar */
+    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
 }
 
 h1,
@@ -39,7 +39,7 @@ h2 {
 }
 
 .section {
-    padding-top: 4rem; /* prevent navbaar overlap */
+    padding-top: 4rem; /* prevent navbar overlap */
 }
 
 /* Buttons */
@@ -57,16 +57,18 @@ h2 {
 }
 
 .custom-button-outline {
-    border: 2px solid var(--highlight-color);
+    border: 3px solid var(--highlight-color);
     padding: 7px 25px;
-    color: var(--highlight-color);
+    color: var(--highlight-color)
 }
+
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
-    color: white;
+    color: white
 }
 
 /* Navbar */
+
 #navbar {
     background-color: var(--primary-color);
 }
@@ -113,7 +115,6 @@ h2 {
     padding: 5px 10px;
     font-size: 0.8rem;
 }
-
 /* Game library cards */
 
 #new-games .card,
@@ -160,6 +161,17 @@ h2 {
 }
 
 /* Media queries */
+
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
