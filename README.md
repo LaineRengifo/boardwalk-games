@@ -18,6 +18,7 @@ Welcome to **Boardwalk Games**, the ultimate destination for board game enthusia
 - **JavaScript**: For interactive features and enhanced user experience.
 
 ## Project Structure
+```
 
 Boardwalk Games/
 ├── assets/
@@ -36,6 +37,7 @@ Boardwalk Games/
 ├── README.md                   # Documentation for the project
 ├── LICENSE                     # License file (MIT License)
 └── contact.html                # Contact page for user inquiries
+```
 
 ## How to Use
 
